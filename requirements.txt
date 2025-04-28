@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+scikit-learn
+pandas
+joblib
+google-cloud-bigquery
+db-dtypes

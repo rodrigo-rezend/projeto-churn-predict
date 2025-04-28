@@ -1,0 +1,29 @@
+# Ignorar pastas de cache do Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignorar ambiente virtual, se existir
+venv/
+.env/
+
+# Ignorar arquivos de configuração ou cache ocultos
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos temporários do sistema
+*.log
+*.tmp
+
+# Ignorar bases de dados brutas grandes
+data/ga_sessions_sample.csv
+data/processed_sessions.csv
+
+# (Opcional) Ignorar modelos treinados se quiser proteger - mas neste projeto queremos subir o modelo
+# models/*.pkl
+
+# Ignore arquivos de build do Docker (caso tenha algo extra)
+*.dockerfile
+
+# Ignore outputs de notebooks (se você usar futuramente)
+.ipynb_checkpoints/
